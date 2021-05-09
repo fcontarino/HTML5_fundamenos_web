@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body{ 
+    margin: 0;
     background-color: #f4f5f9; 
     color: #222222;
     font-family: 'Poppins', sans-serif;
@@ -37,10 +38,12 @@ footer{
 nav{
     width: 100%;
     height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 30px;
 }
 
 a{
-    color: #666;
+    color: rgb(255, 255, 255);
     font-size: 14px;
     text-decoration: none;
     margin-left: 5px;
@@ -54,4 +57,37 @@ a:hover{
 img{
     width: 30%;
     height: auto;
+}
+
+form{
+    width: 80%;
+    padding: 10px;
+}
+
+input,textarea{
+    margin-bottom: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+textarea{
+    height: 50px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #333;
+    margin-left: 500px;
+}
+
+span{
+    color: red;
+}
+
+input,textarea,select{
+    margin-bottom: 5px;
+    width: 200px;
+    height: 30px;
 }

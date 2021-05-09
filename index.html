@@ -32,6 +32,22 @@
         </ul>
     </main>
 
+    <h2 style="margin-left: 10px;">Contactenos</h2>
+    <form action="codigo.php" method="POST">
+        <label>*Nombre y Apellido: <br> <input type='text' name='nombre' placeholder='John Doe' required></label><br>
+        <label>*Email: <br> <input type="email" name="email" placeholder="info@dominio.com" required></label> <br>
+        <label>Comentarios <br> <textarea name="comentarios" required></textarea> </label><br>
+        <label>*Edad: <br><input type="number" min="18" max="90" name="edad" required></label> <br>
+        <label>*Servicio: <br> <select name="servicio" required>
+            <option value="">Elegir</option>
+            <option value="digital">Guardado Digital</option>
+            <option value="versionado">Versionado</option>
+            <option value="errores">Errores de proceso</option>
+        </select> </label> <br>
+        <span>* campos obligarios</span>
+        <button>Enviar</button>
+
+    </form>
     <footer></footer>
 </body>
 </html>
